@@ -1,8 +1,9 @@
 CC=g++
-CFLAGS=-std=c++20 -Wall -Wextra -g -O2
+CFLAGS=-std=c++20 -Wall -Wextra -g
+INCLUDE=-I external/cpp-httplib -I external/libjaltop/include
 
 all:
-	$(CC) $(CFLAGS) -o build/jaltop src/main.cpp
+	$(CC) $(CFLAGS) $(INCLUDE) -o build/jaltop src/main.cpp -ljaltop
 
 clean:
 	rm build/*

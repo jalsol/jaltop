@@ -10,7 +10,11 @@
    "-O2",
    "-o",
    "build/jaltop",
-   "src/main.cpp"
+   "src/main.cpp",
+   "-I",
+   "external/cpp-httplib",
+   "-I",
+   "external/libjaltop/include"
   ],
   "file": "src/main.cpp"
  }
