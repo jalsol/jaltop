@@ -1,0 +1,7 @@
+Package: jaltop
+Version: 0.1-1
+Section: base
+Priority: optional
+Architecture: amd64
+Maintainer: Quang-Truong Nguyen <jalsol@protonmail.com>
+Description: just a little TOP
