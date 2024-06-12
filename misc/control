@@ -1,6 +1,6 @@
 Package: jaltop
-Version: 0.1-1
-Section: base
+Version: 0.2-1
+Section: testing
 Priority: optional
 Architecture: amd64
 Maintainer: Quang-Truong Nguyen <jalsol@protonmail.com>
